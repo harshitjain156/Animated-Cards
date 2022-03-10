@@ -7,9 +7,10 @@ import Card1 from './components/Card1';
 import Ticket from './components/Ticket';
 import Heritage from './components/Heritage';
 import Qrcode from './components/Qrcode';
+import Description from './components/Description';
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -27,9 +28,10 @@ function App() {
       {/* <Card /> */}
       {/* <StateCard /> */}
       {/* <Card1 /> */}
-      <Ticket />
+      {/* <Ticket /> */}
       {/* < Heritage /> */}
       {/* <Qrcode /> */}
+      <Description />
     </div>
   );
 }

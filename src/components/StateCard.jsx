@@ -4,20 +4,19 @@ import he from '../components/he.jpg';
 
 export class StateCard extends Component {
   render() {
-    let  {stateName}=this.props;
+    
     return (
       <div>
          <div className="box">
-
-            <div className="front ">
-
+          <div className="front ">
+              
                 <img src={he} alt='hello' height='250' width='300' />
 
             </div>
 
             <div className="back">
 
-                <h1>{stateName}</h1>
+                <h1>stateName</h1>
 
             </div>
 

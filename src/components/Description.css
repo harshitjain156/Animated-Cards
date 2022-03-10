@@ -1,0 +1,30 @@
+.background{
+    position: absolute;
+width: 1044px;
+height: 542px;
+left: 246px;
+top: 278px;
+
+background: #C4C4C4;
+border-radius: 10px;
+z-index: 1;
+}
+.imag{
+    position: absolute;
+width: 416px;
+height: 506px;
+left: 47px;
+top: 19px;
+float: left;
+
+background: #0c0b0b;
+border-radius: 10px;
+z-index: 2;
+}
+.decription{
+    text-align: left;
+}
+.data{
+    float: right;
+    position:absolute;
+}
